@@ -1,0 +1,35 @@
+{
+  "_説明": "自分の案件名に書き換えて使う。categories は上から順に判定するので、具体的なものを先に置く。",
+
+  "target_dir": "~/Downloads",
+  "min_age_hours": 24,
+
+  "quarantine_dir": "_整理待ち",
+  "duplicates_dir": "重複",
+  "installers_dir": "インストーラ",
+  "installer_ext": [".dmg", ".pkg"],
+
+  "image_fallback": "90_素材_画像スクショ",
+  "fallback": "99_未分類",
+
+  "log_path": "~/Library/Application Support/DownloadsOrganizer/organize.log",
+
+  "categories": [
+    {
+      "folder": "01_案件A",
+      "keywords": ["案件Aの略称", "clientA", "プロジェクト名"]
+    },
+    {
+      "folder": "02_案件B",
+      "keywords": ["案件Bの略称", "clientB"]
+    },
+    {
+      "folder": "10_経費_領収書",
+      "keywords": ["領収書", "receipt", "invoice", "請求書"]
+    },
+    {
+      "folder": "11_録画_動画",
+      "keywords": ["recording", "録画", ".mp4", ".mov", ".m4a", ".webm", ".vtt"]
+    }
+  ]
+}
