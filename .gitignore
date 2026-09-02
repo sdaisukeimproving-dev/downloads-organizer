@@ -1,0 +1,6 @@
+rules.json
+.DS_Store
+*.log
+*.out
+*.err
+*.bak*
